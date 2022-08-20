@@ -12,27 +12,21 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
-
 import './style.css';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
       <Box width="400px" sx={{ width: { xl: '1488px' } }} m="auto">
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/exercise/:id" element={<ExerciseDetail />} />
-    </Routes>
-    <Footer />
-  </Box>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/exercise/:id" element={<ExerciseDetail />} />
+        </Routes>
+        <Footer />
+      </Box>
     </div>
   );
 }
-
-const App = () => (
-  
-);
 
 export default App;

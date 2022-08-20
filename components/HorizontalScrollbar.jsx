@@ -4,8 +4,8 @@ import { Box, Typography } from '@mui/material';
 
 import ExerciseCard from './ExerciseCard';
 import BodyPart from './BodyPart';
-import RightArrowIcon from '../assets/icons/right-arrow.png';
-import LeftArrowIcon from '../assets/icons/left-arrow.png';
+import RightArrowIcon from 'https://github.com/adrianhajdin/project_fitness_app/blob/main/src/assets/icons/right-arrow.png?raw=true';
+import LeftArrowIcon from 'https://github.com/adrianhajdin/project_fitness_app/blob/main/src/assets/icons/left-arrow.png?raw=true';
 
 const LeftArrow = () => {
   const { scrollPrev } = useContext(VisibilityContext);

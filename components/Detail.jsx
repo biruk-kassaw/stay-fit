@@ -1,9 +1,9 @@
 import React from 'react';
 import { Typography, Stack, Button } from '@mui/material';
 
-import BodyPartImage from '../assets/icons/body-part.png';
-import TargetImage from '../assets/icons/target.png';
-import EquipmentImage from '../assets/icons/equipment.png';
+import BodyPartImage from 'https://github.com/adrianhajdin/project_fitness_app/blob/main/src/assets/icons/body-part.png?raw=true';
+import TargetImage from 'https://github.com/adrianhajdin/project_fitness_app/blob/main/src/assets/icons/target.png?raw=true';
+import EquipmentImage from 'https://github.com/adrianhajdin/project_fitness_app/blob/main/src/assets/icons/equipment.png?raw=true';
 
 const Detail = ({ exerciseDetail }) => {
   const { bodyPart, gifUrl, name, target, equipment } = exerciseDetail;
