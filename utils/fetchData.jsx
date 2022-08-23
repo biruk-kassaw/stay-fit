@@ -19,8 +19,8 @@ export const youtubeOptions = {
 export const fetchData = async (url, options) => {
   try {
     const res = await axios.request(options);
+    return res;
   } catch (ex) {
     alert('something wrong with the server');
   }
-  return res;
 };
