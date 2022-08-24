@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 import './style.css';
 
-export default function App() {
+const App = () => {
   return (
     <div>
       <Box width="400px" sx={{ width: { xl: '1488px' } }} m="auto">
