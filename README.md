@@ -1,6 +1,6 @@
 # Stay Fit
 
-## This repository contains the code for a fitness website developed using react-js and Material-UI
+### This repository contains the code for a fitness website developed using react-js and Material-UI
 
 # Features:
  * Browse over the avilable 2000 exercises from the exercisesDB API
